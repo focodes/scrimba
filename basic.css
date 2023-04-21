@@ -1,0 +1,38 @@
+.container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #1E88E5;
+}
+
+html, body {
+    background-color: #FFFFFF;
+    margin: 10px;
+}
+/*add backgrounds to each divider*/
+.container > div:nth-child(1n){
+    background-color: #8e96fe;
+}
+.container > div:nth-child(2n){
+background-color: #fff746;
+}
+.container > div:nth-child(3n){
+    background-color: #fe80fc;
+}
+.container > div:nth-child(4n){
+    background-color: #69fe8c;
+}
+
+.container > div:nth-child(5n){
+    background-color: #fe5f70
+}
+
+.container > div:nth-child(6n){
+    background-color: #61b7fe
+}
+
+/*Colour name*/
+.container > div {
+    color: #FFFFFF;
+}
